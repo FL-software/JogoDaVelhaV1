@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Jogo da Velha</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="jogo"></div>
+        <br>
+        <div class="iniciar_jogo" onclick="jogo_da_velha.iniciar_jogo()">Iniciar</div>
+        <script src="js/jogo-da-velha.js"></script>
+        <script>
+            jogo_da_velha.iniciar(document.querySelector('.jogo'));
+        </script>
+    </body>
+</html>
